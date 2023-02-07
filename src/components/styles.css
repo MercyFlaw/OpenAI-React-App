@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.site-title {
+    font-size: 3rem;
+    font-family: 'Martian Mono', monospace;
+}
+
+.NW {
+    text-align: justify;
+    margin-top: 10%;
+    bottom: 70%;
+    font-size: 1rem;
+    font-family: 'Martian Mono', monospace;
+    color: white;
+
+}
+
+.Total {
+    display:block;
+    font-size: 1rem;
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    padding: .5rem;
+}
+
+.dot {
+    height: 15px;
+    width: 35px;
+    background-color: #bbb;
+    border-radius: 10%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+  }
+
+.nutrients {
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    width: 65%;
+    float: left;
+    display: inline-flex;
+
+}
+
+
+.grams {
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    float: right;
+    width: 35%;
+
+}
+
+.meal {
+    font-family: 'Martian Mono', monospace;
+    color: white;
+
+}
+
+.textbox {
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    padding:10%;
+    display:flex;
+    line-height: 5px;
+    float:right;
+    width: 470px;
+    height:120px;
+    margin-top: 10%;
+    font-size: 14pt;
+}
+
+
+.button {
+    font-family: 'Martian Mono', monospace;
+    color: black;
+    width: 25%;
+    margin-top: 2%;
+    background-color: white;
+    border-color: white;
+}
+
+.button:hover {
+    background-color:#c9c9c9
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    font-family: 'Martian Mono', monospace;
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    
+}
+
+.nav li.active {
+    color: #000000;
+    transition: all 0.3s ease 0s;
+}
+
+.nav li:hover {
+    color: #000000;
+}
+
+.chart-relative {
+    min-height: 100;
+    min-width: 100;
+    display: flex;
+}
+
